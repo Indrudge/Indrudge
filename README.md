@@ -6,11 +6,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=700&color=00FFD5&center=true&vCenter=true&width=900&lines=Booting+Neon+Grid...;Indrudge+%7C+AI+Systems+Engineer;Linux+%7C+Backend+%7C+Microservices;Code+Is+Control" />
 </p>
 
----
+
 
 ## 🧠 SYSTEM IDENTITY
 
-```bash
 $ whoami
 > Indrudge
 

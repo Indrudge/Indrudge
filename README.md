@@ -62,7 +62,7 @@ Exploring the intersection of Jurisprudence and Systems Engineering:
 ## 🌐 CONNECT TO THE GRID
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/indrudge-panwar">
+  <a href="https://www.linkedin.com/in/indrudge-panwar-2a6877268">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="YOUR_PORTFOLIO_URL">

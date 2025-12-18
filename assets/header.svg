@@ -1,0 +1,23 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" gradientTransform="rotate(45)">
+      <stop offset="0%" stop-color="#00F5A0"/>
+      <stop offset="100%" stop-color="#00D9F5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#0d1117"/>
+
+  <text x="50%" y="50%" text-anchor="middle"
+        fill="url(#g)" font-size="48" font-family="monospace">
+    Indrudge Panwar
+    <animate attributeName="opacity"
+             from="0" to="1" dur="1.5s" fill="freeze"/>
+  </text>
+
+  <text x="50%" y="70%" text-anchor="middle"
+        fill="#8b949e" font-size="20" font-family="monospace">
+    AI • Systems • Linux • APIs
+  </text>
+</svg>

@@ -47,7 +47,7 @@ I design Al-driven, modular backend systems with a focus on performance, clarity
 ## 📓 WEEKLY DEV LOG
 
 - Status: System auto‑generates weekly development logs  
-- 📑 See: (./DEVLOG.md)  
+- 📑 See: [DEVLOG.md](./DEVLOG.md)  
 
   
 
@@ -73,4 +73,5 @@ I design Al-driven, modular backend systems with a focus on performance, clarity
 <p align="center">
   <img src="https://img.shields.io/github/stars/Indrudge?style=social" />
 </p>
+
 

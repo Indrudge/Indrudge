@@ -69,11 +69,9 @@ I design Al-driven, modular backend systems with a focus on performance, clarity
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/Indrudge?style=social" />
-</p>
-"""
+</p>
 
 path = "/mnt/data/README.md"
 with open(path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
+    f.write(readme_content)
 path

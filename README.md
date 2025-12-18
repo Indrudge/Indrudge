@@ -13,8 +13,8 @@ I design Al-driven, modular backend systems with a focus on performance, clarity
 
 | Category | Modules |
 |---|---|
-| 🧬 Languages | Python, Go, Java, Bash |
-| 🧠 Backend | FastAPI, Spring Boot, Node.js |
+| 🧬 Languages | Python, C , Java, Bash |
+| 🧠 Backend | FastAPI, Django , Flask , Node.js |
 | 🧪 Systems | Docker, Kubernetes, Linux (Fedora Atomic / Bazzite) |
 
 ## 🧩 ACTIVE MODULES

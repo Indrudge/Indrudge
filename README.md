@@ -57,7 +57,7 @@ I design Al-driven, modular backend systems with a focus on performance, clarity
   <a href="https://www.linkedin.com/in/indrudge-panwar-2a6877268">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="[YOUR_PORTFOLIO_URL](https://indrudge.github.io/Protfolio/)">
+  <a href="https://indrudge.github.io/Protfolio/">
     <img src="https://img.shields.io/badge/Portfolio-00FFD5?style=for-the-badge&logo=ko-fi&logoColor=black" />
   </a>
   <a href="mailto:indrudge@outlook.com">
@@ -73,6 +73,7 @@ I design Al-driven, modular backend systems with a focus on performance, clarity
 <p align="center">
   <img src="https://img.shields.io/github/stars/Indrudge?style=social" />
 </p>
+
 
 
 

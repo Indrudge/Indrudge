@@ -2,6 +2,15 @@
      width="1200" height="300" viewBox="0 0 1200 300">
 
   <defs>
+    <!-- Neon glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
     <!-- Neon gradient -->
     <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00FFD5">
@@ -17,18 +26,9 @@
                  repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-
-    <!-- Glow (simple, GitHub-safe) -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <!-- HUD CORNERS -->
+  <!-- Corner HUD brackets -->
   <g stroke="#00FFD5" stroke-width="2" fill="none" opacity="0.6">
     <path d="M40 40 L20 40 L20 20 L40 20"/>
     <path d="M1160 40 L1180 40 L1180 20 L1160 20"/>
@@ -36,8 +36,8 @@
     <path d="M1160 260 L1180 260 L1180 280 L1160 280"/>
   </g>
 
-  <!-- MAIN NAME -->
-  <text x="600" y="145"
+  <!-- Name -->
+  <text x="600" y="150"
         text-anchor="middle"
         font-family="monospace"
         font-size="64"
@@ -51,8 +51,8 @@
              repeatCount="indefinite"/>
   </text>
 
-  <!-- SUBTITLE -->
-  <text x="600" y="185"
+  <!-- Subtitle -->
+  <text x="600" y="190"
         text-anchor="middle"
         font-family="monospace"
         font-size="18"
@@ -62,9 +62,9 @@
     AI SYSTEMS — LINUX — BACKEND ARCHITECT
   </text>
 
-  <!-- SCANNING LINE -->
+  <!-- Scanning line -->
   <line x1="350" y1="215" x2="450" y2="215"
-        stroke="#00FFD5" stroke-width="2" opacity="0.9">
+        stroke="#00FFD5" stroke-width="2">
     <animate attributeName="x1"
              values="350;750;350"
              dur="4s"
@@ -74,17 +74,5 @@
              dur="4s"
              repeatCount="indefinite"/>
   </line>
-
-  <!-- HUD TELEMETRY (LEFT) -->
-  <g font-family="monospace" font-size="11" fill="#00FFD5" opacity="0.5">
-    <text x="60" y="245">CORE_STATUS: STABLE</text>
-    <text x="60" y="260">LATENCY: 12ms</text>
-  </g>
-
-  <!-- HUD TELEMETRY (RIGHT) -->
-  <g font-family="monospace" font-size="11" fill="#00FFD5" opacity="0.5">
-    <text x="960" y="245">NODE: INDRUDGE</text>
-    <text x="960" y="260">NET_AUTH: ENABLED</text>
-  </g>
 
 </svg>

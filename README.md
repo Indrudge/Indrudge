@@ -46,14 +46,7 @@ I design Al-driven, modular backend systems with a focus on performance, clarity
 
 - Status: System auto‑generates weekly development logs  
 - 📑 See: `DEVLOG.md`  
-
-## ⚖️ LAW‑TECH MODULE
-
-Exploring the intersection of Jurisprudence and Systems Engineering:
-
-- Simulation – Legal outcome modeling  
-- Awareness – Platforms for rights‑based intelligence  
-- Decision Support – Engines bridging law and logic  
+  
 
 ## 🌐 CONNECT TO THE GRID
 

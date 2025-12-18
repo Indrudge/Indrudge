@@ -1,130 +1,71 @@
-<!-- Animated Header -->
 <p align="center">
   <img src="assets/header.svg" width="100%" />
 </p>
 
-<!-- Typing Animation (External SVG – no local file required) -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?
 font=JetBrains+Mono&
 size=22&
-pause=1000&
-color=00F5A0&
+pause=700&
+color=00FFD5&
 center=true&
 vCenter=true&
-width=750&
-lines=AI+Systems+Developer;Linux+Power+User;Microservices+%26+API+Architect;Building+Intelligent+Backends"
+width=900&
+lines=Welcome+to+the+Neon+Grid;Indrudge+%7C+AI+Systems+Engineer;Linux+%7C+APIs+%7C+Microservices;Code+Is+Control"
   />
 </p>
 
 ---
 
-## 👋 About Me
+## 🧠 SYSTEM IDENTITY
 
-I am a **systems-focused software developer** with a strong interest in **AI-driven decision engines, backend architecture, and Linux-based environments**.  
-I design **modular, API-first systems** that scale cleanly and remain maintainable.
+```bash
+$ whoami
+Indrudge
 
-**Core interests:**
-- AI simulations and predictive models  
-- Microservices and distributed systems  
-- Linux internals and OS-level tooling  
-- Automation, DevOps, and system hardening  
-- Law-Tech and Fin-Tech applications  
+$ uname -a
+AI Systems Engineer | Backend Architect | Linux Power User
 
----
+$ mission.txt
+Design systems that scale.
+Write code that survives.
+Think in architectures.
+I build AI-driven, modular backend systems with a focus on
+performance, clarity, and long-term maintainability.
 
-## 🧠 Current Focus
+⚙️ NEON STACK
+Languages
 
-- Building **independent, service-oriented APIs**
-- Developing **AI simulation pipelines**
-- Working extensively with **Fedora Atomic / Bazzite Linux**
-- Improving **performance, security, and reliability**
+Python
 
----
+JavaScript
 
-## 🛠 Technology Stack
+C
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite)
+SQL
 
-### Backend & APIs
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
-![REST](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge)
+Backend
 
-### Systems & DevOps
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions)
+FastAPI
 
----
+Node.js
 
-## 📌 Featured Projects
+RESTful APIs
 
-### 🔹 Legal Outcome Simulation Engine
-AI-powered platform that simulates legal scenarios and predicts possible outcomes using modular services and clean APIs.
+Systems
 
-### 🔹 Linux System Tooling
-Custom scripts and tools for **Fedora Atomic / Bazzite** environments, focused on automation and system efficiency.
+Linux (Fedora Atomic / Bazzite)
 
-### 🔹 Backend API Frameworks
-Production-ready FastAPI services with strong separation of concerns and scalable architecture.
+Docker
 
----
+GitHub Actions
 
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?
-username=indrudge&
-show_icons=true&
-theme=tokyonight&
-count_private=true"
-  />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?
-user=indrudge&
-theme=tokyonight"
-  />
-</p>
-
----
-
-## 🐍 Contribution Activity
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/indrudge/indrudge/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
-## ⚡ Recent Activity
-
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:end-->
-
----
-
-## 🌐 Connect
-
-- 💼 LinkedIn: _Add link_
-- 🧠 Portfolio: _Optional_
-- 📫 Email: _Optional_
-
----
-
-## ⚡ Personal Philosophy
-
-> **Build systems that scale.  
-> Write code that lasts.  
-> Learn relentlessly.**
-
----
-
-⭐ If you find my work useful, consider starring the repositories.
+📊 SYSTEM TELEMETRY
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api? username=Indrudge& show_icons=true& theme=tokyonight& count_private=true" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com? user=Indrudge& theme=tokyonight" /> </p>
+🐍 CONTRIBUTION NEURAL MAP
+<p align="center"> <img src="https://raw.githubusercontent.com/Indrudge/Indrudge/output/github-contribution-grid-snake.svg" /> </p>
+☣ FINAL DIRECTIVE
+In a world of abstraction,
+build systems.
+In a world of noise,
+write clean code.

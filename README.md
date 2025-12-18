@@ -18,7 +18,6 @@ lines=Booting+Neon+Grid...;Indrudge+%7C+AI+Systems+Engineer;Linux+%7C+Backend+%7
 
 ## 🧠 SYSTEM IDENTITY
 
-```bash
 $ whoami
 Indrudge
 

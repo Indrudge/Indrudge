@@ -1,0 +1,27 @@
+name: Weekly Dev Log
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  devlog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update dev log
+        run: |
+          echo "### 🗓 $(date '+%Y-%m-%d')" >> DEVLOG.md
+          echo "- Worked on system design and architecture" >> DEVLOG.md
+          echo "- Improved automation and workflows" >> DEVLOG.md
+          echo "" >> DEVLOG.md
+
+      - name: Commit dev log
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add DEVLOG.md
+          git commit -m "Weekly dev log update" || exit 0
+          git push

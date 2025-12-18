@@ -72,13 +72,7 @@ GitHub Actions
   <img src="https://github-readme-stats.vercel.app/api?username=Indrudge&show_icons=true&theme=tokyonight&count_private=true" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Indrudge&theme=tokyonight" />
-</p>
 
-<p align="center">
-  <img src="https://github.com/Indrudge/Indrudge/blob/main/github-metrics.svg" />
-</p>
 
 🐍 CONTRIBUTION NEURAL MAP
 <p align="center"> <img src="https://raw.githubusercontent.com/Indrudge/Indrudge/output/github-contribution-grid-snake.svg" /> </p>

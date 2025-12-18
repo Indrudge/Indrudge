@@ -1,58 +1,96 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap');
-      .name { font: bold 72px 'JetBrains Mono', monospace; fill: #00FFD5; filter: url(#neonGlow); text-transform: uppercase; letter-spacing: 8px; }
-      .subtitle { font: 500 18px 'JetBrains Mono', monospace; fill: #7F00FF; letter-spacing: 5px; opacity: 0.8; }
-    </style>
+<svg width="1200" height="300" viewBox="0 0 1200 300"
+     xmlns="http://www.w3.org/2000/svg">
 
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur1"/>
-      <feGaussianBlur stdDeviation="5" result="blur2"/>
-      <feGaussianBlur stdDeviation="10" result="blur3"/>
+  <defs>
+    <!-- Neon gradient -->
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFD5"/>
+      <stop offset="100%" stop-color="#7F00FF"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="b1"/>
+      <feGaussianBlur stdDeviation="6" result="b2"/>
       <feMerge>
-        <feMergeNode in="blur3"/>
-        <feMergeNode in="blur2"/>
-        <feMergeNode in="blur1"/>
+        <feMergeNode in="b2"/>
+        <feMergeNode in="b1"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
+    <!-- Animated grid -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00FFD5" stroke-width="0.5" opacity="0.1"/>
+      <path d="M 40 0 L 0 0 0 40"
+            fill="none"
+            stroke="#00FFD5"
+            stroke-width="0.6"
+            opacity="0.12"/>
     </pattern>
   </defs>
 
+  <!-- Transparent background grid -->
   <rect width="100%" height="100%" fill="url(#grid)">
-    <animate attributeName="x" from="0" to="40" dur="10s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      from="0 0"
+                      to="40 40"
+                      dur="14s"
+                      repeatCount="indefinite"/>
   </rect>
 
+  <!-- HUD corner brackets -->
   <g stroke="#00FFD5" stroke-width="2" fill="none" opacity="0.6">
-    <path d="M 50 50 L 20 50 L 20 20 L 50 20" />
-    <path d="M 1150 50 L 1180 50 L 1180 20 L 1150 20" />
-    <path d="M 50 250 L 20 250 L 20 280 L 50 280" />
-    <path d="M 1150 250 L 1180 250 L 1180 280 L 1150 280" />
+    <path d="M 40 40 L 20 40 L 20 20 L 40 20"/>
+    <path d="M 1160 40 L 1180 40 L 1180 20 L 1160 20"/>
+    <path d="M 40 260 L 20 260 L 20 280 L 40 280"/>
+    <path d="M 1160 260 L 1180 260 L 1180 280 L 1160 280"/>
   </g>
 
-  <text x="50%" y="45%" text-anchor="middle" class="name">
+  <!-- Name -->
+  <text x="50%" y="46%"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="64"
+        letter-spacing="8"
+        fill="url(#neon)"
+        filter="url(#glow)">
     INDRUDGE
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="1;0.85;1"
+             dur="2.2s"
+             repeatCount="indefinite"/>
   </text>
 
-  <text x="50%" y="62%" text-anchor="middle" class="subtitle">
+  <!-- Subtitle -->
+  <text x="50%" y="62%"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="18"
+        letter-spacing="5"
+        fill="#7F00FF"
+        opacity="0.85">
     [ AI SYSTEMS ] — [ LINUX ] — [ BACKEND ARCHITECT ]
   </text>
 
-  <rect x="350" y="200" width="500" height="2" fill="#1A1A1A" rx="1" />
-  <rect x="350" y="200" width="0" height="2" fill="#00FFD5" rx="1">
-    <animate attributeName="width" values="0;500;0" dur="4s" repeatCount="indefinite" />
-    <animate attributeName="x" values="350;350;850" dur="4s" repeatCount="indefinite" />
+  <!-- Scanning progress bar -->
+  <rect x="350" y="200" width="500" height="2"
+        fill="#1A1A1A" rx="1"/>
+  <rect x="350" y="200" width="120" height="2"
+        fill="#00FFD5" rx="1">
+    <animate attributeName="x"
+             values="350;730;350"
+             dur="4s"
+             repeatCount="indefinite"/>
   </rect>
 
-  <g font-family="monospace" font-size="10" fill="#00FFD5" opacity="0.4">
-    <text x="60" y="260">CORE_STATUS: STABLE</text>
-    <text x="60" y="275">LATENCY: 12ms</text>
-    <text x="1040" y="260">LOC: 51.5074° N</text>
-    <text x="1040" y="275">NET_AUTH: ENABLED</text>
+  <!-- HUD telemetry -->
+  <g font-family="monospace" font-size="11" fill="#00FFD5" opacity="0.45">
+    <text x="60" y="255">CORE_STATUS: STABLE</text>
+    <text x="60" y="270">LATENCY: 12ms</text>
+
+    <text x="980" y="255">NODE: INDRUDGE</text>
+    <text x="980" y="270">NET_AUTH: ENABLED</text>
   </g>
+
 </svg>

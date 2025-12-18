@@ -1,4 +1,5 @@
-<p align="center">
+
+<p align="center">
   <img src="assets/header.svg" width="100%" />
 </p>
  
@@ -40,13 +41,15 @@ I design Al-driven, modular backend systems with a focus on performance, clarity
 <p align="center">
   <img src="https://raw.githubusercontent.com/Indrudge/Indrudge/output/github-contribution-grid-snake.svg" />
 </p>
-
+
+
 
 ## 📓 WEEKLY DEV LOG
 
 - Status: System auto‑generates weekly development logs  
-- 📑 See: `DEVLOG.md`  
-  
+- 📑 See: (./DEVLOG.md)  
+
+  
 
 ## 🌐 CONNECT TO THE GRID
 
@@ -69,4 +72,5 @@ I design Al-driven, modular backend systems with a focus on performance, clarity
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/Indrudge?style=social" />
-</p>
+</p>
+

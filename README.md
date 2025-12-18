@@ -19,7 +19,7 @@ $ cat /etc/philosophy
 Build systems that scale.
 Write code that survives.
 Think in architectures.
-
+```
 I design AI-driven, modular backend systems with a focus on performance, clarity, and long-term maintainability.
 
 ## ⚙️ NEON STACK

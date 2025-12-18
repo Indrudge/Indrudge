@@ -3,7 +3,7 @@
   <img src="assets/header.svg" width="100%" />
 </p>
 
-<!-- Typing Animation -->
+<!-- Typing Animation (External SVG – no local file required) -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?
 font=JetBrains+Mono&
@@ -21,24 +21,24 @@ lines=AI+Systems+Developer;Linux+Power+User;Microservices+%26+API+Architect;Buil
 
 ## 👋 About Me
 
-I am a **systems-focused software developer** with a strong interest in **AI-driven decision systems, backend engineering, and Linux-based environments**.  
-I design **modular, API-first architectures** that scale cleanly and remain maintainable over time.
+I am a **systems-focused software developer** with a strong interest in **AI-driven decision engines, backend architecture, and Linux-based environments**.  
+I design **modular, API-first systems** that scale cleanly and remain maintainable.
 
-**Primary interests include:**
-- AI simulations and predictive engines  
-- Microservices and backend system design  
+**Core interests:**
+- AI simulations and predictive models  
+- Microservices and distributed systems  
 - Linux internals and OS-level tooling  
-- Automation, DevOps, and cloud-native workflows  
+- Automation, DevOps, and system hardening  
 - Law-Tech and Fin-Tech applications  
 
 ---
 
 ## 🧠 Current Focus
 
-- Designing **independent, API-connected services**
-- Building **AI simulation engines**
-- Working with **Fedora Atomic / Bazzite Linux**
-- Improving **security, performance, and system reliability**
+- Building **independent, service-oriented APIs**
+- Developing **AI simulation pipelines**
+- Working extensively with **Fedora Atomic / Bazzite Linux**
+- Improving **performance, security, and reliability**
 
 ---
 
@@ -63,16 +63,16 @@ I design **modular, API-first architectures** that scale cleanly and remain main
 
 ---
 
-## 📌 Featured Work
+## 📌 Featured Projects
 
 ### 🔹 Legal Outcome Simulation Engine
-AI-powered system that simulates legal scenarios and predicts possible outcomes using modular microservices and clean APIs.
+AI-powered platform that simulates legal scenarios and predicts possible outcomes using modular services and clean APIs.
 
 ### 🔹 Linux System Tooling
-Custom tooling and scripts for **Fedora Atomic / Bazzite** environments focusing on automation and system optimization.
+Custom scripts and tools for **Fedora Atomic / Bazzite** environments, focused on automation and system efficiency.
 
 ### 🔹 Backend API Frameworks
-Scalable, production-grade FastAPI services with strict separation of concerns and clean architecture.
+Production-ready FastAPI services with strong separation of concerns and scalable architecture.
 
 ---
 
@@ -80,7 +80,7 @@ Scalable, production-grade FastAPI services with strict separation of concerns a
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?
-username=IndrudgePanwar&
+username=indrudge&
 show_icons=true&
 theme=tokyonight&
 count_private=true"
@@ -89,7 +89,7 @@ count_private=true"
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?
-user=IndrudgePanwar&
+user=indrudge&
 theme=tokyonight"
   />
 </p>
@@ -99,8 +99,15 @@ theme=tokyonight"
 ## 🐍 Contribution Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IndrudgePanwar/IndrudgePanwar/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/indrudge/indrudge/output/github-contribution-grid-snake.svg" />
 </p>
+
+---
+
+## ⚡ Recent Activity
+
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
 
 ---
 
@@ -120,4 +127,4 @@ theme=tokyonight"
 
 ---
 
-⭐ If you find my work valuable, consider starring the repositories.
+⭐ If you find my work useful, consider starring the repositories.

@@ -8,15 +8,17 @@
 
 ## 🧠 SYSTEM IDENTITY
 
-<pre><code>$ whoami
+```bash
+$ whoami
 Indrudge
 
 $ uname -a
 AI Systems Engineer | Backend Architect | Linux Power User
 
 $ cat /etc/philosophy
-"Build systems that scale. Write code that survives. Think in architectures."
-</code></pre>
+Build systems that scale.
+Write code that survives.
+Think in architectures. ``` 0
 
 I design AI-driven, modular backend systems with a focus on performance, clarity, and long-term maintainability.
 

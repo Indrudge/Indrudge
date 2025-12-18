@@ -1,5 +1,4 @@
-
-<p align="center">
+<p align="center">
   <img src="assets/header.svg" width="100%" />
 </p>
 
@@ -9,8 +8,7 @@
 
 ## 🧠 SYSTEM IDENTITY
 
-```bash
-$ whoami
+<pre><code>$ whoami
 Indrudge
 
 $ uname -a
@@ -18,7 +16,8 @@ AI Systems Engineer | Backend Architect | Linux Power User
 
 $ cat /etc/philosophy
 "Build systems that scale. Write code that survives. Think in architectures."
-```
+</code></pre>
+
 I design AI-driven, modular backend systems with a focus on performance, clarity, and long-term maintainability.
 
 ## ⚙️ NEON STACK

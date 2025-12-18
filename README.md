@@ -62,13 +62,13 @@ Exploring the intersection of Jurisprudence and Systems Engineering:
 ## 🌐 CONNECT TO THE GRID
 
 <p align="center">
-  <a href="YOUR_LINKEDIN_URL">
+  <a href="https://www.linkedin.com/in/indrudge-panwar">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="YOUR_PORTFOLIO_URL">
     <img src="https://img.shields.io/badge/Portfolio-00FFD5?style=for-the-badge&logo=ko-fi&logoColor=black" />
   </a>
-  <a href="mailto:YOUR_EMAIL">
+  <a href="mailto:indrudge@outlook.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>

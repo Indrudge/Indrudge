@@ -71,6 +71,12 @@ GitHub Actions
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Indrudge&show_icons=true&theme=tokyonight&count_private=true" />
 </p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Indrudge&theme=tokyonight&hide_border=true" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Indrudge/Indrudge/main/github-metrics.svg" />
+</p>
 
 
 
